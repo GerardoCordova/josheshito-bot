@@ -1,6 +1,9 @@
 {
   "name": "josheshito-bot",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.16.2"
+  },
   "description": "hola vengo a tirar bl",
   "main": "bot.js",
   "author": "Your Name",
