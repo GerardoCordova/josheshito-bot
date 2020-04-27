@@ -31,7 +31,7 @@ client.on('message', async message => {
         else {
             var dado = Math.floor(Math.random() * 100);
             //dado = message.author.username == "Pulpul" ? 100 : Math.floor(Math.random() * 100);
-            var extra = dado == 69 ? 'nice' : '';
+            var extra = dado == 69 ? 'nice' : ((dado == 11) ? ('chupalo entonce'):(''));
             message.channel.send(message.author + ' rollea: ' + dado + ' ' + extra);
         }
     } else {
